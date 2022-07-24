@@ -1,0 +1,12 @@
+GET http://localhost:3000/
+
+###
+@contentType = application/json
+
+POST http://localhost:3000/
+content-type: application/json
+
+{
+    "username": "bahubali",
+    "userAddress": "belgaum"
+}
